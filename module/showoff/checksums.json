@@ -1,0 +1,12 @@
+{
+  "LICENSE": "fa818a259cbed7ce8bc2a22d35a464fc",
+  "README.md": "e6e11220463075c5767f1331802f49f2",
+  "examples/gitpreso.pp": "29a0dbe0cee96278d53023d50c46cba5",
+  "manifests/config.pp": "a656e44b66569345633c6bbecd67b261",
+  "manifests/init.pp": "08b26a7e3ac8dcaf5c973d8b09b1f4f9",
+  "manifests/params.pp": "0bde3f3230e690a4d441ca05b3d95390",
+  "manifests/presentation.pp": "d9d8aa6805aa99a4a4a21516f28d0b8b",
+  "manifests/rvm.pp": "f08973aaff5dbf15423fad9dd59bf48c",
+  "metadata.json": "528ac2adba67a29cab246d7ad7a4a346",
+  "templates/showoff.service.erb": "fa0ca71c2cd09160c18f2c9a1876ef14"
+}

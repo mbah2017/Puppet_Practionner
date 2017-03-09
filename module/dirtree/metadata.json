@@ -1,0 +1,23 @@
+{
+  "name": "pltraining-dirtree",
+  "version": "0.3.0",
+  "author": "Alex Cline <alex.cline@gmail.com>, Puppetlabs Education Team <eduteam@puppetlabs.com>",
+  "summary": "This includes a dirtree function to builds an array of directories from a full directory path or an array of full directory paths to be used as a file resource title. It also includes a dirtree resource type which can ensure the existance only of a full directory path.",
+  "license": "Apache License, Version 2.0",
+  "source": "git@github.com:puppetlabs/pltraining-dirtree.git",
+  "project_page": "https://github.com/puppetlabs/pltraining-dirtree",
+  "issues_url": null,
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+  
+  ],
+  "requirements": [
+  
+  ],
+  "tags": [
+  
+  ]
+}

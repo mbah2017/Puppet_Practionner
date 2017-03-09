@@ -1,0 +1,12 @@
+{
+  "CHANGELOG.txt": "9e11b14322a35eacf0e9bf88d6e34799",
+  "LICENSE": "6089b6bd1f0d807edb8bdfd76da0b038",
+  "README.md": "ebd39a45282710ea0da236b0b1720572",
+  "lib/puppet/provider/rbac_api.rb": "368899f7c065b8d734ae8feeb3c05f7f",
+  "lib/puppet/provider/rbac_role/ruby.rb": "53055ea6f0a05df54961a8b3d0493fd1",
+  "lib/puppet/provider/rbac_user/ruby.rb": "8b8baa7c99476911e21fd4d3ce4400e5",
+  "lib/puppet/type/rbac_role.rb": "41bbd9609e605b9f776ad8ed458e8307",
+  "lib/puppet/type/rbac_user.rb": "b2b603d60a5614ae5ed073116bb16af6",
+  "metadata.json": "47c84e637c441ae6d8a9602f98062c34",
+  "tests/users.pp": "5fb70f89219a54160d1422958e378446"
+}

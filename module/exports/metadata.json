@@ -1,0 +1,72 @@
+{
+  "name": "zack-exports",
+  "version": "0.0.6",
+  "author": "Zach Smith",
+  "summary": "A puppet face that queries puppetdb and returns the exported resources",
+  "license": "Apache License, Version 2.0",
+  "source": "https://github.com/acidprime/exports",
+  "project_page": "https://github.com/acidprime/exports",
+  "issues_url": "https://github.com/acidprime/exports/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Scientific",
+      "operatingsystemrelease": [
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "12.04",
+        "14.04"
+      ]
+    }
+  ],
+  "tags": [
+    "puppetdb",
+    "pe",
+    "environment",
+    "api",
+    "face",
+    "exports"
+  ],
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "2.7.0"
+    }
+  ]
+}

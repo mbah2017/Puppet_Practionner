@@ -1,0 +1,63 @@
+# This file managed by Puppet
+<% if @cert_real != '' -%>
+cert = <%= @cert_real %>
+<% end -%>
+<% if @cafile_real != '' -%>
+CAfile = <%= @cafile_real %>
+<% else -%>
+# CAfile = /path/to/cafile.crt
+<% end -%>
+
+setuid = root
+setgid = root
+pid = <%= @pid %>
+
+debug = <%= @debug %>
+
+output = <%= @output_r %>
+
+<% @options_r.each do |option| -%>
+options = <%= option %>
+<% end -%>
+
+<% if @global_opts.is_a? Hash and @global_opts.keys.size > 0 -%>
+
+  <%- @global_opts.sort.map do |option_name,option_value| -%>
+; additional global options
+    <% if option_value.kind_of?(Array) -%>
+      <%- for val in option_value do -%>
+<%= option_name %> = <%= val %>
+      <%- end -%>
+    <% else -%>
+<%= option_name %> = <%= option_value %>
+    <%- end -%>
+  <%- end -%>
+<%- end -%>
+
+[<%= @name %>]
+<% if @accept -%>
+  accept=<%= @accept %>
+<% end -%>
+<%- if @connect.is_a? Array -%>
+  <%- @connect.each do |c| -%>
+  connect=<%= c %>
+  <%- end -%>
+<%- else -%>
+  connect=<%= @connect %>
+<%- end -%>
+<%- if @connect.is_a? Array -%>
+  failover=<%= @failover %>
+<%- end -%>
+<% if @client -%>
+  client=yes
+<% else -%>
+  client=no
+<% end -%>
+TIMEOUTidle = <%= @timeoutidle %> 
+<% if @service_opts.is_a? Hash and @service_opts.keys.size > 0 -%>
+
+  ; additional service options
+  <%- @service_opts.sort.map do |option_name,option_value| -%>
+  <%= option_name %> = <%= option_value %>
+  <%- end -%>
+<%- end -%>

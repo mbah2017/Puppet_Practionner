@@ -1,0 +1,17 @@
+{
+  "Gemfile": "a280be248667b14c2754dc1e2873d668",
+  "README.md": "0a16bd1bbfcf79a3e67b86a66318295e",
+  "Rakefile": "421c9ed3383a3edee28e5bed1003af6a",
+  "appveyor.yml": "d860f4a14d7a20eb685960942931ad42",
+  "examples/init.pp": "b25bb14b0d63ad467e76c73c87d432f8",
+  "lib/puppet/provider/fileshare/wmi.rb": "6ff4a41023065baebfc3a05dd27b6457",
+  "lib/puppet/type/fileshare.rb": "db3ffcd05d4727020279abbdfa300134",
+  "metadata.json": "73471f555c3b2d0c948069478527ea2f",
+  "spec/acceptance/acceptance_spec.rb": "fcd321c3f8affa1e3fbd788609272f60",
+  "spec/fixtures/acceptance.pp": "a63fd1a8c746ffa8684af6c2f157df9d",
+  "spec/integration/provider/wmi_spec.rb": "9d1a1df1af9f84fd96ed0aac06da3627",
+  "spec/spec_helper.rb": "233268f23c6c9830731b3d2d3d48da35",
+  "spec/spec_helper_acceptance.rb": "b41d4858ef25031f8be6187457d0bed9",
+  "spec/unit/provider/wmi_spec.rb": "380830c5ad2380354189b76b61276320",
+  "spec/unit/type/fileshare_spec.rb": "ced5e22594b0f3bfe13a9e4ddcea76ad"
+}

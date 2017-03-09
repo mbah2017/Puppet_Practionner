@@ -1,0 +1,11 @@
+{
+  "CHANGELOG.md": "3967d9f059d2523088be42771fba0f40",
+  "README.md": "347b5089a90f1c2a27e9898382f5c866",
+  "examples/init.pp": "94e6daf0b7fd33e97ce7f573cd67a17d",
+  "manifests/config.pp": "3900077d5e640e9f273e5a96d447e8be",
+  "manifests/init.pp": "22eba2f84110de27bfe38f36556e26c9",
+  "manifests/params.pp": "136ca1d6282c8c21f09acdc455b267a1",
+  "metadata.json": "b15e4c5431ba59e3037e498fd9a3e0d3",
+  "templates/abalone.service.erb": "648a94dfde27819205fc37f2a276389b",
+  "templates/config.yaml.erb": "f94d6743aeb6e1d08dd2ac31e6079823"
+}

@@ -1,0 +1,15 @@
+[Unit]
+Description=Abalone Web Shell
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/abalone
+<% if @watchdog -%>
+WatchdogSec=30s
+NotifyAccess=all
+<% end -%>
+Restart=on-failure
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target

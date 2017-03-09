@@ -1,0 +1,9 @@
+# pltraining/dirtree
+
+## Release Notes
+
+## v0.3.0
+
+* Allow forward and backslashes in Windows paths
+* Make path the namevar like it should have been all along.
+

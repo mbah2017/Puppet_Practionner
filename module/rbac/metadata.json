@@ -1,0 +1,25 @@
+{
+  "name": "pltraining-rbac",
+  "version": "0.0.5",
+  "author": "pltraining",
+  "summary": "Exposes Puppet Enterprise Console RBAC APIs to the Puppet DSL",
+  "license": "Apache 2.0",
+  "source": "https://github.com/puppetlabs/pltraining-rbac",
+  "project_page": "https://github.com/puppetlabs/pltraining-rbac",
+  "issues_url": "https://github.com/puppetlabs/pltraining-rbac/issues",
+  "dependencies": [
+  
+  ],
+  "data_provider": null,
+  "requirements": [
+    {
+      "name": "pe",
+      "version_requirement": "3.7.x"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": "3.x"
+    }
+  ],
+  "description": "This module exposes the PE RBAC APIs for use in your manifests."
+}

@@ -1,0 +1,15 @@
+{
+  "CHANGELOG.txt": "5213c1db034281ebde292cd16dacdb6c",
+  "README.md": "82058db68ab551d1145f086d776d3d70",
+  "Rakefile": "f37e6131fe7de9a49b09d31596f5fbf1",
+  "lib/puppet/parser/functions/dirtree.rb": "3d7aca0af5b36cb281a13e873fb945fa",
+  "lib/puppet/provider/dirtree/ruby.rb": "876f409f6e862a24577b7869f8dbcc06",
+  "lib/puppet/type/dirtree.rb": "c84e08b737b37d9560c1878965326453",
+  "manifests/init.pp": "862b24db1111ef88966b784aeae50de7",
+  "metadata.json": "db3a5e2b758cc53e088561f73c8c0c1b",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "890088360e8e947b68c83a6461228af0",
+  "spec/unit/puppet/parser/functions/dirtree_spec.rb": "10833e69c4228c614b5c4032619e9ecc",
+  "tests/init.pp": "8d87ed1e214e136a092769431a4a3a58",
+  "tests/type.pp": "41e296ba1111f43e2c2cc66ee5d5ba33"
+}
